@@ -1,4 +1,4 @@
-import { BiCartDownload } from "react-icons/ci";
+import { BiCartDownload } from "react-icons/bi";
 
 const CartWidget = () => {
     return(

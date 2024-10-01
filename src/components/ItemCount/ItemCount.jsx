@@ -1,4 +1,4 @@
-import { useEffect, usesState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import { Flex, Button, text } from "@chakra-ui/react";
 
 const ItemCount = () => {
