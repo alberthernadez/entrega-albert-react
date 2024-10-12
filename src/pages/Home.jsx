@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import ItemListContainer from "../components/ItemListContainer/ItemListContainer";
 import { getAllProducts } from "../services/products.service";
-import { Box } from "@chakra-ui/react";
+import Loader from "../components/Loader/Loader"
+
 
 
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
         }).finally(() => setLoanding(false));
     },[]);
 
-    return loading ?( <Box>loading...</Box> 
+    return loading ?( < Loader/> 
     ) : ( 
     <ItemListContainer products={productsData} />
 );
