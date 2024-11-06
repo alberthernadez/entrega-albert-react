@@ -1,7 +1,7 @@
 import { Flex, Spinner } from "@chakra-ui/react";
 import { px } from "framer-motion";
 
-const Loader = () => {
+export const Loader = () => {
     return (
 <Flex height= {"90vh"} width={"100vw"} alignItems={"center"} justifyContent={"center"}>
 <Spinner
@@ -13,6 +13,4 @@ const Loader = () => {
     />
 </Flex>
     );
-};
-
-export default Loader;
+}

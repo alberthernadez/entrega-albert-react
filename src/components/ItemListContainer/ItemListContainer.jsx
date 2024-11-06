@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react";
 import { BsArrowUpRight } from "react-icons/bs";
 
-const ItemListContainer = ({ products }) => {
+export const ItemListContainer = ({ products }) => {
     return (
         <Flex wrap="wrap" justify="center" gap={4}>
             {products.map((item) => (
@@ -83,4 +83,3 @@ const ItemListContainer = ({ products }) => {
     );
 };
 
-export default ItemListContainer;

@@ -1,6 +1,6 @@
 import { BiCartDownload } from "react-icons/bi";
 
-const CartWidget = () => {
+export const CartWidget = () => {
     return(
         <div style={{display: "flex", 
         marginRight:"20px",
@@ -13,4 +13,3 @@ const CartWidget = () => {
     );
 };
 
-export default CartWidget; 

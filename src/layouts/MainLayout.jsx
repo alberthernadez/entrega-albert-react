@@ -1,7 +1,7 @@
 import {Box}from "@chakra-ui/react";
-import NavBar from "../components/NavBar/NavBar";
+import {NavBar} from "../components/NavBar";
 
-const MainLayout =({children}) => {
+export const MainLayout =({children}) => {
     return(
         <Box>
             <NavBar/>
@@ -9,5 +9,3 @@ const MainLayout =({children}) => {
         </Box>
     );
 };
-
-export default MainLayout; 

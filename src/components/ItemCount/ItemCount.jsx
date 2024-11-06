@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
-import { Flex, Button, text } from "@chakra-ui/react";
+import { Flex, Button, Text } from "@chakra-ui/react";
 
-const ItemCount = () => {
+export const ItemCount = () => {
     const [state, setState] = useState(0);
 
     const handLeAdd = () => {
@@ -26,4 +26,3 @@ const ItemCount = () => {
     );
 };
 
-export default ItemCount; 
